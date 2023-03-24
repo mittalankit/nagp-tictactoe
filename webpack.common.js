@@ -33,7 +33,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "hangman",
+      name: "tictactoe",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
